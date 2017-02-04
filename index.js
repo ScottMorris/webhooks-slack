@@ -9,7 +9,7 @@ var express = require('express')
 
 // Configuration.
 var channel = '#scrobbles';
-var appURL = 'https://plex-webhooks-slack.herokuapp.com';
+var appURL = 'https://pacific-brushlands-43528.herokuapp.com';
 
 var slack = new Slack();
 slack.setWebhook(process.env.SLACK_URL);
