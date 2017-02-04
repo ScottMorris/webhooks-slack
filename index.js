@@ -8,7 +8,7 @@ var express = require('express')
   , Slack = require('slack-node');
 
 // Configuration.
-var channel = '#scrobbles';
+var channel = '#plex';
 var appURL = 'https://pacific-brushlands-43528.herokuapp.com';
 
 var slack = new Slack();
